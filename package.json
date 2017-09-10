@@ -21,6 +21,11 @@
     "url": "https://github.com/CandleCoder/Hapi_Demo/issues"
   },
   "dependencies": {
-    "hapi": "~16.5.0"
+    "hapi": "^16.5.0",
+    "mongojs": "^2.4.0",
+    "boom": "^4.2.0",
+    "joi": "^10.2.2",
+    "node-uuid" : "^1.4.7",
+    "mongojs-models": "^0.1.4"
   }
 }
