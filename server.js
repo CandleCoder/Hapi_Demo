@@ -1,17 +1,14 @@
 'use strict';
 
 const Hapi = require('hapi');
-const mongojs = require('mongojs'); 
-
+const db = require('./database').db;
+const userModel = require('./src/models/users')
 // Create a server with a host and port
 const server = new Hapi.Server();
 server.connection({ 
     host: 'localhost', 
     port: 8080 
 });
-
-//Connect to mongoDB
-server.app.db = mongojs('hapi-mongodb-ecommerce',['users'])
 
 // Add the route
 server.route({
