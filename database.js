@@ -7,7 +7,7 @@ let db = Mongoose.connection;
 
 db.on('error', console.error.bind(console, 'connection error'));
 
-db.once('open', function callback() {
+db.once('openUri', function callback() {
     console.log('Connection with database succeeded.');
 });
 
