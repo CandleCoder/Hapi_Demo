@@ -27,6 +27,6 @@
     "joi": "^10.2.2",
     "node-uuid" : "^1.4.7",
     "mongojs-models": "^0.1.4",
-    "mongoose": "^4.11.11"
+    "mongoose": ">=5.7.5"
   }
 }
